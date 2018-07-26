@@ -14,7 +14,7 @@ while loop == True:
     if filename == "custom":
         filename = input("please enter a name for the output including a file extension: ")
         loop=False
-    if filename == "default":
+    if filename == "default" or not filename:
         filename = "eNXhop.txt"
         loop=False
     else:
