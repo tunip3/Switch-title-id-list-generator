@@ -10,7 +10,7 @@ count = 0
 loop=True
 
 while loop == True:
-    filename = input("do you want to set a custom name for the title id list \nor leave it as the default (eNXhop.txt for use with eNXhop) \ncustom or default:")
+    filename = input("do you want to set a custom name for the title id list \nor leave it as the default (eNXhop.txt for use with eNXhop) \ncustom or default (you can also just leave it empty for default):")
     if filename == "custom":
         filename = input("please enter a name for the output including a file extension: ")
         loop=False
